@@ -1,0 +1,17 @@
+#container{
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#container div{
+    width: 100%;
+/* justify-content: stretch; */
+/* justify-content: center; */
+height: 500px;
+}
+img{
+    width: 100%;
+}
+*{
+    padding: 3px 3px;
+}

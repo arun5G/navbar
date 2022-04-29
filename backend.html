@@ -9,7 +9,7 @@
 <body>
     <a href="navber.html">navbar</a>
     <a href="frontend.html">frontend</a>
-    
+    <link rel="stylesheet" href="frontend.html">
     <form id="form">
         <input type="text" id="name" placeholder="name">
         <input type="text" id="imgurl" placeholder="imgurl">
@@ -26,7 +26,7 @@ var arr=JSON.parse(localStorage.getItem("data")) || [];
 document.querySelector("#form").addEventListener("submit",function(){
     event.preventDefault();
     var o={
-           n:form.name.value,
+           name:form.name.value,
      i:form.imgurl.value,
      l:form.logo.value,
      r:form.role.value
