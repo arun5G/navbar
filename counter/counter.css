@@ -1,0 +1,9 @@
+/* button{
+    background: repeating-radial-gradient(powerblue,poweblue 8px, green 80px, red 16px);
+} */
+
+button{
+    background: repeating-radial-gradient(powderblue, powderblue 8px, yellow 8px, white 16px);
+    border-radius: 7px;
+    
+}
